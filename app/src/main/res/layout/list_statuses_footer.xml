@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <ProgressBar
+        android:id="@+id/listTimelineFooterProgressBarMain"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_marginBottom="5sp"
+        android:layout_marginTop="5sp"
+        android:indeterminate="true"
+        android:visibility="visible"
+        android:indeterminateBehavior="cycle"
+        android:indeterminateOnly="true" />
+
+    <TextView
+        android:id="@+id/foot_load_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/userWallActivityImgUser"
+        android:layout_margin="15sp"
+        android:text="(+) Carregar mais"
+        android:textColor="#4DADD6"
+        android:visibility="gone"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:icon="@drawable/action_bar_icon"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.redu.gui.WallActivity" >
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/gd_action_bar_home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="Atualizar Timeline"
+        android:icon="@drawable/gd_action_bar_refresh"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_compose"
+        android:title="Postar"
+        android:icon="@drawable/gd_action_bar_compose"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_logoff"
+        android:title="Sair"/>
+
+</menu>

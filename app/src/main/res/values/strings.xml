@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Redu</string>
+    <string name="ptr_pull_to_refresh">Arreste para atualizar</string>
+    <string name="ptr_release_to_refresh">Solte</string>
+    <string name="ptr_refreshing">Atualizando</string>
+    <string name="ptr_last_updated">Atualizado: %1$s</string>
+</resources>
